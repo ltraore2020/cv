@@ -7,12 +7,12 @@
     --font-semi-bold: 600;
     --font-bold: 700;
 
-    --first-color: #CC4B2C;
-    --first-color-dark: #662616;
-    --first-color-darken: #290F09;
-    --text-color: #54423D;
-    --first-color-light: #EAE7E6;
-    --first-color-lighten: #FFFAFA;
+    --first-color: #1F5FF5;
+    --first-color-dark: #10317D;
+    --first-color-darken: #071433;
+    --text-color: #212E4D;
+    --first-color-light: #CEDBFC;
+    --first-color-lighten: #DBE5FF;
 
     --body-font: 'Poppins', sans-serif;
 
@@ -359,37 +359,22 @@ img{
     background-color: var(--first-color);
 }
 
-.skills_html{
-    width: 80%;
-}
-
-.skills_js{
+.skills_90{
     width: 90%;
 }
 
-.skills_react{
+.skills_80{
+    width: 80%;
+}
+
+.skills_70{
     width: 70%;
 }
 
-.skills_angular{
+.skills_60{
     width: 60%;
 }
 
-.skills_php{
-    width: 80%;
-}
-
-.skills_node{
-    width: 90%;
-}
-
-.skills_firebase{
-    width: 90%;
-}
-
-.skills_python{
-    width: 60%;
-}
 
 /**********     EDUCATION     **********/
 .education_container{
@@ -711,11 +696,6 @@ img{
         align-self: flex-end;
     }
 
-    .contact_inputs{
-        display: grid;
-        column-gap: 1.5rem;
-    }
-
     .contact_info{
         padding-left: 3rem;
     }
@@ -760,10 +740,5 @@ img{
     .bd-grid{
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .services_container,
-    .works_container{
-        grid-template-columns: repeat(3,1fr);
-    }
+    }    
 }
